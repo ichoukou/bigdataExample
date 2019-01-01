@@ -23,6 +23,7 @@ public class ApiFunction {
 	 */
 	public void initHDFS() throws Exception {
 		
+		
 		// 1 创建配置信息对象
 		// new Configuration();的时候，它就会去加载jar包中的hdfs-default.xml
 		// 然后再加载classpath下的hdfs-site.xml
