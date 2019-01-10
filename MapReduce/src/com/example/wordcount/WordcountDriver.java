@@ -35,9 +35,9 @@ public class WordcountDriver {
 		job.setJarByClass(WordcountDriver.class);
 		
 		// 9 如果不设置InputFormat,它默认用的是TextInputFormat.class
-		job.setInputFormatClass(CombineTextInputFormat.class);
-		CombineTextInputFormat.setMaxInputSplitSize(job, 4194304);// 4m
-		CombineTextInputFormat.setMinInputSplitSize(job, 2097152);// 2m
+//		job.setInputFormatClass(CombineTextInputFormat.class);
+//		CombineTextInputFormat.setMaxInputSplitSize(job, 4194304);// 4m
+//		CombineTextInputFormat.setMinInputSplitSize(job, 2097152);// 2m
 		
 		
 		// 2 指定本业务job要使用的mapper/Reducer业务类

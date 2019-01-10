@@ -13,7 +13,7 @@ public class WordcountCombiner extends Reducer<Text, IntWritable, Text, IntWrita
 
 		int count = 0;
 		for(IntWritable v :values){
-			count = v.get();
+			count += v.get();
 		}
 		
 		context.write(key, new IntWritable(count));
