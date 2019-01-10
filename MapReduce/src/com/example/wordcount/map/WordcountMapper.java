@@ -1,5 +1,5 @@
 
-package com.example.wordcount;
+package com.example.wordcount.map;
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;

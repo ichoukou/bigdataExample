@@ -1,4 +1,4 @@
-package com.example.wordcount.shuffle;
+package com.example.wordcount.map;
 
 import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;
