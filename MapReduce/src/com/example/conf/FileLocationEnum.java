@@ -22,9 +22,15 @@ public enum FileLocationEnum {
 
 	OUTPUTFORMATINPUT("D:/work/soft/Linux/localFile/mapreduce/outputformat/input/*", "带星号表示input文件夹里面的所有文件进行统计"),
 	OUTPUTFORMATOUTPUT("D:/work/soft/Linux/localFile/mapreduce/outputformat/output", "如果output文件夹已存在，会报错"),
-
 	ATGUIGULOG("D:/work/soft/Linux/localFile/mapreduce/outputformat/atguigu.log", "文件会自动生成"),
-	OTHERLOG("D:/work/soft/Linux/localFile/mapreduce/outputformat/other.log", "文件会自动生成");
+	OTHERLOG("D:/work/soft/Linux/localFile/mapreduce/outputformat/other.log", "文件会自动生成"),
+
+	CLEANINGINPUT("D:/work/soft/Linux/localFile/mapreduce/cleaning/input/*", "带星号表示input文件夹里面的所有文件进行统计"),
+	CLEANINGOUTPUT("D:/work/soft/Linux/localFile/mapreduce/cleaning/output", "如果output文件夹已存在，会报错"),
+
+	REINDEXINPUT("D:/work/soft/Linux/localFile/mapreduce/reindex/input/*", "带星号表示input文件夹里面的所有文件进行统计"),
+	REINDEXFIRSTOUTPUT("D:/work/soft/Linux/localFile/mapreduce/reindex/outputfirst", "如果output文件夹已存在，会报错"),
+	REINDEXSECONDOUTPUT("D:/work/soft/Linux/localFile/mapreduce/reindex/outputsecond", "如果output文件夹已存在，会报错");
 
 	
 	
